@@ -1,0 +1,38 @@
+body{
+    background-color: #BDA2D5;
+}
+
+header{
+    background-color: #FA0000;
+    width: 20.375rem;
+    height: 9.875rem;
+    border-radius: 2.188rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+
+h1{
+    color: #FF9900;
+    font-family: "Inter";
+    text-align: center;
+}
+
+section{
+    background-color: #FAA500;
+    width: 20.375rem;
+    height: 26.438rem;
+    border-radius: 2.188rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 0.781rem;
+    font-family: "Inter";
+    color: #FFFFFF;
+    width: 15rem;
+    margin: 0.1rem 0;
+}
