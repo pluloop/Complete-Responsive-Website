@@ -36,3 +36,55 @@ li{
     width: 15rem;
     margin: 0.1rem 0;
 }
+
+@media (min-width: 800px){
+    body{
+        background-color: #BDA2D5;
+    }
+    
+    header{
+        background-color: #FA0000;
+        width: 70rem;
+        height: 9.875rem;
+        border-radius: 2.188rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem auto;  
+    }
+    
+    h1{
+        color: #FF9900;
+        font-family: "Inter";
+        text-align: center;
+        font-size: 5rem;
+        width: 100rem;
+    }
+    
+    .directions-list{
+        background-color: #FAA500;
+        width: 70rem;
+        height: 35rem;
+        border-radius: 2.188rem;
+        display: flex;
+        justify-content: center;
+        margin: 10rem auto;
+    }
+    
+    li{
+        font-size: 2.4rem;
+        font-family: "Inter";
+        color: #FFFFFF;
+        width: 60rem;
+        list-style-position: inside;
+    }
+
+    .donut-pic{
+        display: block;
+        width: 70rem;
+        height: 50rem;
+        margin: -30rem 82.5rem;
+        position: relative;
+        z-index: -1;
+    }
+}
