@@ -36,7 +36,7 @@ li{
     width: 15rem;
 }
 
-.donut-pic{
+img{
     display: none;
 }
 
@@ -81,11 +81,11 @@ li{
         list-style-position: inside;
     }
 
-    .donut-pic{
+    img{
         display: block;
         width: 70rem;
         height: 50rem;
-        margin: -30rem 82.5rem;
+        margin: -31.5rem 76rem;
         position: relative;
         z-index: -1;
     }

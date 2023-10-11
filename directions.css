@@ -19,7 +19,7 @@ h1{
     text-align: center;
 }
 
-section{
+.directions-list{
     background-color: #FAA500;
     width: 20.375rem;
     height: 26.438rem;
@@ -37,6 +37,10 @@ li{
     margin: 0.1rem 0;
 }
 
+img{
+    display: none;
+}
+
 @media (min-width: 800px){
     body{
         background-color: #BDA2D5;
@@ -48,7 +52,7 @@ li{
         height: 9.875rem;
         border-radius: 2.188rem;
         display: flex;
-        justify-content: center;
+        justify-content: center;    
         align-items: center;
         margin: 1.5rem auto;  
     }
@@ -79,11 +83,11 @@ li{
         list-style-position: inside;
     }
 
-    .donut-pic{
+    img{
         display: block;
         width: 70rem;
         height: 50rem;
-        margin: -30rem 82.5rem;
+        margin: -31.5rem 76rem;
         position: relative;
         z-index: -1;
     }
